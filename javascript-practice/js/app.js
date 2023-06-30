@@ -5,7 +5,7 @@
 /* 2.querySelector : 범용적으로 사용되기 때문에 잘 구분하여 작성 해줘야 한다. ex) class(.),id(#) */
 // const timeElement = document.querySelector("h1");
 // const timeElement = document.querySelector("#time");
-const timeElement = document.querySelector(".titi");
+const timeElement = document.querySelector(".time");
 
 function 실행될_함수() {
   timeElement.style.color = "tomato";
